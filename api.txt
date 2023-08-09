@@ -1,0 +1,160 @@
+Admin-------------------------------------------------------------------------
+
+Super Admin Registration -  /api/flippy/v1/superadmin_regsitration
+Admin Login              -  /api/flippy/v1/admin_login
+Admin Logout             -  /api/flippy/v1/admin/logout
+Admin Profile            -  /api/flippy/v1/admin/me
+
+Admin - users
+
+Get All User             -  /api/flippy/v1/admin/users
+Get Single User          -  /api/flippy/v1/admin/user/:id
+Update User details      -  /api/flippy/v1/admin/user/update/:id
+Delete users             -  /api/flippy/v1/admin/user/delete/:id
+
+
+Admin - staff  
+
+New Staff Registration   -  /api/flippy/v1/admin/staff/new/
+Get All Staff Role       -  /api/flippy/v1/admin/staff/role/
+Get Single Staff         -  /api/flippy/v1/admin/staff/:id
+Get Delete Staff         -  /api/flippy/v1/admin/staff/delete/:id
+Update Staff Role        -  /api/flippy/v1/admin/staff/role/:id"
+
+
+Admin - Seller  
+
+Get All Seller                     -  /api/flippy/v1/admin/seller
+Get Single Seller                  -  /api/flippy/v1/admin/seller/:id
+Get All Details of Seller          -  /api/flippy/v1/admin/seller/all/details/:id
+Update Seller profile by Admin     -  /api/flippy/v1/admin/seller/update/profile/:id
+Update Seller All Details          -  /api/flippy/v1/admin/seller/update/alldetails/:id
+Permanent Delete Seller            -  /api/flippy/v1/admin/seller/delete/:id
+Get Permanent Delete Seller        -  /api/flippy/v1/admin/seller/permanent/deleted
+
+
+Admin - products 
+
+Get Single Product                 -  /api/flippy/v1/admin/single/product/:id
+Get All Product                    -  /api/flippy/v1/admin/all/product
+Update Product                     -  /api/flippy/v1/admin/update/product/:id
+Delete Product                     -  /api/flippy/v1/admin/delete/product/:id
+
+
+Admin  - Brands 
+
+Create Brand                        - /api/flippy/v1/admin/add/brands
+All Brand                           - /api/flippy/v1/admin/all/brands
+Single Brand Details                - /api/flippy/v1/admin/single/brands/:id
+Update Brand Details                - /api/flippy/v1/admin/update/brands/:id
+Delete Brand                        - /api/flippy/v1/admin/delete/brands/:id
+
+
+
+Admin   - Category 
+
+Create Category                     - /api/flippy/v1/admin/add/category
+Update  Category                    - /api/flippy/v1/admin/update/category/:id
+Get Single Category                 - /api/flippy/v1/admin/get/single/category/:id
+Get All Category                    - /api/flippy/v1/admin/get/all/category/
+Delete Category                     - /api/flippy/v1/admin/delete/category/:id/:catId
+
+
+Admin - Attribute 
+
+Add or Create Atribute              - /api/flippy/v1/admin/add/attribute
+Delete Attribute                    - /api/flippy/v1/admin/delete/attribute/:id
+Delete Attribute Value              - /api/flippy/v1/admin/delete/attribute/atrval/:id/:atrId
+Get All Attribute                   - /api/flippy/v1/admin/get/all/attribute
+
+
+Admin  - Blog routes
+
+Add or Create Blog                  -  /api/flippy/v1/admin/blog/add
+Get All Blog                        -  /api/flippy/v1/admin/all/blog
+Get Single Blog                     -  /api/flippy/v1/admin/blog/:id
+Delete Blog                         -  /api/flippy/v1/admin/delete/blog/:id
+Update Blog                         -  /api/flippy/v1/admin/update/blog/:id
+
+
+
+
+
+
+
+
+
+
+
+
+
+Seller ------------------------------------------------------------------------------------
+seller send mobile otp              - /api/flippy/v1/supplier/otp/number
+seller send email otp               - /api/flippy/v1/supplier/otp/email
+
+seller verify otp number            - /api/flippy/v1/supplier/verify/number
+seller verify otp email            - /api/flippy/v1/supplier/verify/email
+
+Seller Signup                       - /api/flippy/v1/supplier/signup
+Seller Login                        - /api/flippy/v1/supplier/login
+Seller Logout                       - /api/flippy/v1/supplier/logout
+Seller Profile                      - /api/flippy/v1/supplier/me
+Seller Update password              - /api/flippy/v1/supplier/me/password/update
+Seller Update Profile               - /api/flippy/v1/supplier/me/updateProfile
+
+
+Seller Get Complete Details         - /api/flippy/v1/supplier/me/show/complete/details
+
+
+
+Seller - Products ------
+
+Create Product                      - /api/flippy/v1/supplier/add/product
+Get Single Product                  - /api/flippy/v1/supplier/single/product/:id
+Get All Product                     - /api/flippy/v1/supplier/all/product
+Update Product                      - /api/flippy/v1/supplier/update/product/:id
+Delete Product                      - /api/flippy/v1/supplier/delete/product/:id
+
+
+Seller  -  Coupon ---
+
+get All Coupon                      -   /api/flippy/v1/supplier/all/coupons
+create Coupon Seller                -   /api/flippy/v1/supplier/add/coupons
+Delete Coupon                       -   /api/flippy/v1/supplier/delete/coupons/:id
+
+
+
+User --------------------------------------------------------------------------------------
+
+
+User Signup                         -  /api/flippy/v1/signup
+User Login                          -  /api/flippy/v1/login
+User Logout                         -  /api/flippy/v1/logout
+User Profile                        -  /api/flippy/v1/me
+User Update password                -  /api/flippy/v1/me/password/update
+User Update Profile                 -  /api/flippy/v1/me/updateProfile
+
+user   -- manage Address
+
+
+Add New Address                     -  /api/flippy/v1/me/add/address
+update Address			    -  /api/flippy/v1/me/add/address
+Delete Address			    -  /api/flippy/v1/me/delete/address/:id
+
+user  -- bank Details
+
+Add New Bank                        -  /api/flippy/v1/me/add/bank/account
+Update Bank                         -  /api/flippy/v1/me/update/bank/account/:id
+Delete Bank                         -  /api/flippy/v1/me/delete/bank/account/:id
+
+ user - get all user-details - bank,address
+
+Get All Details                     -  /api/flippy/v1/me/get/all/user/details
+
+User  - Products ---
+
+Get Single Products                 -   /api/flippy/v1/user/single/product/:id
+Get All Products                    -   /api/flippy/v1/user/all/product
+
+
+

@@ -1,0 +1,50 @@
+{
+    "name": "flippyseven",
+    "version": "1.0.0",
+    "description": "ecommerce",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "pm2 start ecosystem.config.json --no-daemon",
+        "dev": "npx nodemon",
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "author": "flippyseven",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "cloudinary": "^1.33.0",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.0",
+        "fast-two-sms": "^3.0.0",
+        "helmet": "^6.1.1",
+        "http-status-codes": "^2.2.0",
+        "joi": "^17.9.1",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.4",
+        "mongoose": "^6.7.5",
+        "nodemailer": "^6.8.0",
+        "nodemodule": "^0.3.0",
+        "parse-data-uri": "^0.2.0",
+        "pm2": "^5.3.0",
+        "validator": "^13.7.0",
+        "xss-clean": "^0.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.38.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.7.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "prettier": "^2.8.7"
+    }
+}
